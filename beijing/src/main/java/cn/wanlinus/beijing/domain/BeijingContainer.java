@@ -1,7 +1,7 @@
 package cn.wanlinus.beijing.domain;
 
 import cn.wanlinus.beijing.exception.BeijingException;
-import cn.wanlinus.cloud.core.domain.BeijingClient;
+import cn.wanlinus.core.domain.BeijingClient;
 
 import java.io.Serializable;
 import java.util.*;

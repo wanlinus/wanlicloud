@@ -1,4 +1,4 @@
-package cn.wanlinus.cloud.core.domain.beijing;
+package cn.wanlinus.core.domain.beijing;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

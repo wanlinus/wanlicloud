@@ -1,4 +1,4 @@
-package cn.wanlinus.cloud.core.domain;
+package cn.wanlinus.core.domain;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package cn.wanlinus.cloud.core.config;
+package cn.wanlinus.core.config;
 
-import cn.wanlinus.cloud.core.domain.BeijingClient;
+import cn.wanlinus.core.domain.BeijingClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

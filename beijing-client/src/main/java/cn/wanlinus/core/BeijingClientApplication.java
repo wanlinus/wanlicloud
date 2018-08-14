@@ -1,7 +1,7 @@
-package cn.wanlinus.cloud.core;
+package cn.wanlinus.core;
 
-import cn.wanlinus.cloud.core.domain.BeijingClient;
-import cn.wanlinus.cloud.core.domain.InitInfo;
+import cn.wanlinus.core.domain.BeijingClient;
+import cn.wanlinus.core.domain.InitInfo;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;

@@ -3,22 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.wanlinus</groupId>
-    <artifactId>wanlinus-core</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>beijing</name>
-    <description>Demo project for Spring Boot</description>
-
     <parent>
         <groupId>cn.wanlinus</groupId>
         <artifactId>wanlicloud</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
+    <artifactId>wanlinus-client</artifactId>
+    <packaging>jar</packaging>
+
+    <name>beijing</name>
+    <description>Demo project for Spring Boot</description>
 
     <dependencies>
+        <dependency>
+            <groupId>cn.wanlinus</groupId>
+            <artifactId>wanlicloud-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -33,6 +35,7 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.6</version>
         </dependency>
+
     </dependencies>
 
 

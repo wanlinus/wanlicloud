@@ -1,7 +1,7 @@
 package cn.wanlinus.beijing.controller;
 
 import cn.wanlinus.beijing.domain.BeijingContainer;
-import cn.wanlinus.cloud.core.domain.BeijingClient;
+import cn.wanlinus.core.domain.BeijingClient;
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

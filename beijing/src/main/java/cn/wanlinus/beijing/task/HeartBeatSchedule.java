@@ -1,7 +1,7 @@
 package cn.wanlinus.beijing.task;
 
 import cn.wanlinus.beijing.domain.BeijingContainer;
-import cn.wanlinus.cloud.core.domain.BeijingClient;
+import cn.wanlinus.core.domain.BeijingClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
